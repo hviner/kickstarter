@@ -1,0 +1,47 @@
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+body {
+  font-family: arial;
+}
+
+button {
+  color: white;
+  background-color: #000;
+  font-family: arial;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+}
+
+h2 {
+  text-align: center;
+  color: #5fcffc;
+  font-family: arial;
+}
+
+li a {
+  color: blue;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+.contact {
+  color: #231651;
+}
+
+a:hover {
+  color: blue;
+  opacity: 50%;
+}
+
+#submit {
+  color: white;
+  background-color: blue;
+}

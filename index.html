@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hunter Viner</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div>
       <h1><span>Hunter Viner</span> Portfolio</h1>
       <img src="hunter.jpeg" alt="picture" width="300px" />
       <h2>About Me</h2>
+
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam,
         a eius impedit eaque quasi id dolorum voluptate eum, esse doloribus
@@ -28,17 +30,34 @@
       </p>
       <h3>Companies</h3>
       <ul>
-        <li>CareerBuilder</li>
-        <li>Canon</li>
-        <li>ShipBob</li>
-        <li>Jewish Community Center</li>
+        <li>
+          <a href="https://www.careerbuilder.com" target="_blank"
+            >CareerBuilder</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.usa.canon.com/internet/portal/us/home"
+            target="_blank"
+            >Canon</a
+          >
+        </li>
+        <li>
+          <a href="https://www.shipbob.com/" target="_blank">ShipBob</a>
+        </li>
+        <li>
+          <a href="https://www.jccchicago.org/" target="_blank"
+            >Jewish Community Center</a
+          >
+        </li>
       </ul>
     </div>
+
     <div>
       <h1>Contact Me</h1>
       <form action="/hunter">
         <div>
-          <label for="email">Enter Your Email:</label>
+          <label class="contact" for="email">Enter Your Email:</label>
           <input
             required
             id="email"
@@ -48,7 +67,7 @@
           />
         </div>
         <div>
-          <label for="subject">Subject:</label>
+          <label class="contact" for="subject">Subject:</label>
           <input
             required
             id="subject"
@@ -58,7 +77,7 @@
           />
         </div>
         <div>
-          <label for="message">Message:</label>
+          <label class="contact" for="message">Message:</label>
           <input
             required
             id="message"
@@ -68,7 +87,7 @@
           />
         </div>
         <div>
-          <button type="submit">Submit</button>
+          <button id="submit" type="submit">Submit</button>
         </div>
       </form>
     </div>

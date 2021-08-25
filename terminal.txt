@@ -1,0 +1,7 @@
+Save To Github:
+
+1. Open Terminal
+2. $git add .
+3. $git commit -m 'critical correction'
+4. $git push
+5. $clear
