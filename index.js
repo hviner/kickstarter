@@ -1,3 +1,4 @@
+/*
 var userName = "Hunter Viner";
 const user_age = 25;
 let isLoggedIn = true;
@@ -59,3 +60,60 @@ if (
 } else if (pedestrian === true || lightColor === "red" || gasTank < 0.5) {
   console.log("car remains stationary");
 }
+
+
+// Coding Exercise 25:
+const lottoNumbers = [0, 1, 2, 3, 4, 5];
+
+// Coding Exercise 26:
+leaderboard = ["Harry", "Lua", "Hermione", "Bellatrix"];
+leaderboard[1] = "Luna";
+leaderboard.pop();
+leaderboard.push("Draco");
+
+// Coding Exercise 26:
+const planets = ["The Moon", "Venus", "Earth", "Mars", "Jupiter"];
+planets.shift();
+planets.unshift("Mercury");
+planets.push("Saturn");
+console.log(planets);
+
+// Coding Exercise 27:
+const airplaneSeats = [
+  ["Ruth", "Anthony", "Stevie"],
+  ["Amelia", "Pedro", "Maya"],
+  ["Xavier", "Ananya", "Luis"],
+  ["Luke", null, "Deniz"],
+  ["Rin", "Sakura", "Francisco"],
+];
+airplaneSeats[3][1] = "Hugo";
+console.log(airplaneSeats);
+
+// Coding Exercise 29:
+const product = {
+  name: "Gummy Bears",
+  inStock: true,
+  price: 1.99,
+  flavors: ["grape", "apple", "blueberry"]
+};
+
+// Coding Exercise 30:
+const restaurant = {
+  name: "Ichiran Ramen",
+  address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
+  city: "Brooklyn",
+  state: "NY",
+  zipcode: "11206",
+};
+
+const fullAddress =
+  true +
+  restaurant.address +
+  " " +
+  restaurant.city +
+  " " +
+  restaurant.state +
+  " " +
+  restaurant.zipcode;
+console.log(fullAddress);
+*/
