@@ -116,4 +116,28 @@ const fullAddress =
   " " +
   restaurant.zipcode;
 console.log(fullAddress);
+
+//coding exercise 31:
+let text = "Da ba dee da ba daa";
+for (let i = 0; i < 6; i++) {
+  console.log(text);
+}
+
+// Coding Exercise 32:
+for (let i = 25; i > -1; i -= 5) {
+  console.log(i);
+}
+
+//Coding Exercise 33:
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i].toUpperCase());
+}
+
+//Coding Exercise 34:
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let num of numbers) {
+  let newNum = num * num; // creating a new variable to store the numbers
+  console.log(newNum);
+}
 */
