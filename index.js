@@ -140,4 +140,57 @@ for (let num of numbers) {
   let newNum = num * num; // creating a new variable to store the numbers
   console.log(newNum);
 }
+
+// Coding Exercise 35:
+function printHeart() {
+  console.log("<3");
+}
+printHeart();
+
+// Coding Exercise 36:
+function rant(message) {
+  let phrase = "I hate " + message;
+  console.log(phrase.toUpperCase());
+  console.log(phrase.toUpperCase());
+  console.log(phrase.toUpperCase());
+}
+
+rant("beets");
+
+//Coding Exercise 37:
+function isSnakeEyes(num1, num2) {
+  if (num1 === 1 && num2 === 1) {
+    console.log("Snake Eyes!");
+  } else {
+    console.log("Not Snake Eyes!");
+  }
+}
+
+// Coding Exercise 38:
+function multiply(num1, num2) {
+  return num1 * num2;
+}
+
+//var storedValue = multiply(2, 3);
+//console.log(storedValue);
+
+// Coding Exercise 39:
+function isShortsWeather(num) {
+  if (num >= 75) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// Coding Exercise 40:
+function lastElement(elements) {
+  let index = elements[elements.length - 1];
+  if (index > 0) {
+    return index;
+  } else {
+    return null;
+  }
+}
+console.log(lastElement([1, 2, 3, 4, 5, 6]));
 */
